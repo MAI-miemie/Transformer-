@@ -1,0 +1,42 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook检查点
+.ipynb_checkpoints
+
+# PyTorch模型文件（训练过程中生成的）
+*.pth
+*.pt
+
+# IDE配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+
+# 环境文件
+.env
+.venv
+env/
+venv/
+
+# 输出和结果文件（训练过程中生成的）
+output/
+results/
+models/
+checkpoints/
